@@ -1,0 +1,138 @@
+:root{
+    --R-red:#6d0000;
+    --last-white:#eee;
+    --last-black:#130909;
+    --border:1px solid black;
+    --border-radios:10px solid black;
+
+
+
+
+
+
+}
+
+*{
+    padding: 2;
+    margin: 4;
+
+}
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: var(--R-red);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+}
+form{
+   background-color: var(--last-white);
+    text-align: center;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    width: 50%;
+margin: auto;
+border-radius: 20px;
+border: solid 1px black;
+opacity: 0.7;
+z-index: 0;
+
+}
+input{
+    width: 80%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px ;
+    border: black 1px solid;
+    text-align: center;
+    color: black;
+
+}
+.radio{
+    width: 30px;
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 20px;
+    color: var(--last-black);
+}
+.birth{
+    width: 50%;
+    margin: auto;
+}
+.city{
+    width: 30px;
+    height: 30px;
+    
+}
+.pay{
+    width: 20%;
+    height: 30px;
+    margin-left: 60px;
+    
+}
+.city-pay{
+    display: flex;
+    justify-content: center;
+    margin-top:30px ;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.radio :hover{
+    color: red;
+}
+
+.cvlol{
+   text-align: center;
+   width: 80%; 
+   margin: auto;
+   
+}
+.cheklol{
+    width: 60px;
+    margin-left: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cheklol label{
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.cheklol input{
+    margin-left: 10px;
+    display:flex;
+}
+textarea{
+    width: 80%;
+    text-align: left;
+    border-radius: 20px;
+}
+.btn{
+    width: 40%;
+    display: block;
+}
+.btn input{
+    background-color: #6d0000;
+    color: white;
+    margin-left: 90%;
+}
+.btn :hover{
+    background-color: white;
+    color: #6d0000;
+}
+.main{
+    display: flex;
+}
